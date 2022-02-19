@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,300;1,600&family=Neonderthaw&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=The+Nautigal:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+$anton: 'Anton', sans-serif;
+$mulish: 'Mulish', sans-serif;
+$w-sans: 'Work Sans', sans-serif;
+
+// Строчные
+$roboto: 'Roboto', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+
+// Прописные
+$nautigal: 'The Nautigal', cursive;
+$neonderthaw: 'Neonderthaw', cursive;
+$dancing-script: 'Dancing Script', cursive;
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  h1 {
+    font-family: $dancing-script;
+    font-size: 4em;
+    text-align: center;
+  }
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 5px;
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+
+    border-radius: 10px;
+    border-color: grey;
+  }
+
+  .main-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 2vh;
+
+    .rank {
+      text-align: center;
+      font-weight: bold;
+    }
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px;
+      gap: 10px;
+    }
+    .symbol {
+      text-align: center;
+    }
+  }
+}

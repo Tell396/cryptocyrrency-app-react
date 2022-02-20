@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cryptocyrrency-app-react/static/css/main.3873b3d3.css",
-    "main.js": "/cryptocyrrency-app-react/static/js/main.4b71440b.js",
+    "main.css": "/cryptocyrrency-app-react/static/css/main.bba40a80.css",
+    "main.js": "/cryptocyrrency-app-react/static/js/main.1c804655.js",
     "index.html": "/cryptocyrrency-app-react/index.html",
-    "main.3873b3d3.css.map": "/cryptocyrrency-app-react/static/css/main.3873b3d3.css.map",
-    "main.4b71440b.js.map": "/cryptocyrrency-app-react/static/js/main.4b71440b.js.map"
+    "main.bba40a80.css.map": "/cryptocyrrency-app-react/static/css/main.bba40a80.css.map",
+    "main.1c804655.js.map": "/cryptocyrrency-app-react/static/js/main.1c804655.js.map"
   },
   "entrypoints": [
-    "static/css/main.3873b3d3.css",
-    "static/js/main.4b71440b.js"
+    "static/css/main.bba40a80.css",
+    "static/js/main.1c804655.js"
   ]
 }
